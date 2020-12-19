@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Modify Reminder</title>
+</head>
+<body>
+ <table border ="3" height="250" width="580"  align="center">
+    <tr>
+    <td>
+    <form method="post" action="ModifyReminder">
+       <h3><b>Modify Reminder</b></h3>
+       <br/>
+     <pre>
+           <b>Select a Date :</b>           <input type="date" name="date" required><br/>
+           <b>Subject:       </b>           <select name="Subject"  required>
+                                         <option>Subject1</option>
+                                         <option>Subject2</option>
+                                         <option>Subject3</option>
+                                         <option>Subject4</option>
+                                             </select><br/>
+           <b>Reminders :</b>               <select name = "name">
+                                               <option value="name1" span title="Description about the Name1" name="name1">Name1</option>
+                                               <option value="name2" span title="Description about the Name2" name="name2">Name2</option>
+                                               <option value="name3" span title="Description about the Name3" name="name3">Name3</option>
+                                               <option value="name4" span title="Description about the Name4" name="name4">Name4</option>
+                                          </select><br/>             
+           <b>Add Description :</b>          
+                                      <textarea rows = "4" cols = "18" name = "description" >Add Description here ....</textarea><br/>
+           <b>Email Address :</b>            <input type="email" name="email"/><br/>
+           <b>Contact No. :</b>              <input type="number" name="contact_no"/><br/>
+           <b>SMS No :</b>                   <input type="number" name="sms_no" required><br/>
+           <b>Recur for next :</b>           <input type="checkbox" value="7"> 7 Days
+                                      <input type="checkbox" value="5"> 5 Days
+                                      <input type="checkbox" value="3"> 3 Days
+                                      <input type="checkbox" value="2"> 2 Days 
+                       <br/><br/><br/>
+       <input type="button" onclick="window.location.href='HomePage.html'" value="Back"/>         <input type="Submit" value="Confirm">              <a href="LogOut.html">Log Out</a>
+     </pre>
+    </form>
+    </td>
+    </tr>
+ </table>
+</body>
+</html>

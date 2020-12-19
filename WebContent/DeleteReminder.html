@@ -1,0 +1,29 @@
+<html>
+<head>
+  <title>Delete Reminder</title>
+</head>
+<body>
+ <table border ="3" height="250" width="580"  align="center">
+    <tr>
+    <td>
+    <form method="get" action="DeleteReminder">
+       <h3><b>Delete Reminder</b></h3>
+       <br/>
+     <pre>
+           <b>Select a Date :</b>           <input type="date" name="date" required><br/>
+           <b>Subject:       </b>           <select name="Subject"  required>
+                                         <option>Subject1</option>
+                                         <option>Subject2</option>
+                                         <option>Subject3</option>
+                                         <option>Subject4</option>
+                                            </select><br/>
+                                     
+           <b>SMS No :</b>                  <input type="text" name="sms_no" required><br/><br/>
+   <input type="button" onclick="window.location.href='HomePage.html'" value="Back"/>         <input type="Submit" value="Confirm">              <a href="LogOut.html">Log Out</a>  
+     </pre>
+     </form>
+     </td>
+     </tr>
+   </table>
+ </body>
+ </html>
